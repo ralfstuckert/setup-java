@@ -88,7 +88,7 @@ export class MicrosoftDistributions extends JavaBase {
   private async getAvailableVersions(): Promise<tc.IToolRelease[] | null> {
     // TODO get these dynamically!
     // We will need Microsoft to add an endpoint where we can query for versions.
-    const owner = 'actions';
+    const owner = 'ralfstuckert';
     const repository = 'setup-java';
     const branch = 'main';
     const filePath =
